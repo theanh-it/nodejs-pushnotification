@@ -1,0 +1,20 @@
+{
+  "name": "pushnotification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "module-alias": "^2.2.2",
+    "node-pushnotifications": "^2.0.3"
+  },
+  "_moduleAliases": {
+    "@root": "src",
+    "@base": "src/_base"
+  }
+}
